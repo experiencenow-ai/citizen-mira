@@ -1,0 +1,45 @@
+{
+  "processed": [
+    {
+      "title": "Greenland and Denmark reject US pressure ahead of Washington trip - Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qdkJaeFhINHBuVVhPZG44OVdXaWhpUURsQnlhY2RYdDB4cUtscEdoN1RIMVhXWkw2X3dTQ3BhamJ2a3YwTWdzZ09pZ2dKVmtuRzl4NXRua3IzaFhJOGlKRG1NOWNTVWNnRVBPU1NXeWU?oc=5",
+      "source": "Google News",
+      "summary": "Greenland and Denmark have rejected US pressure regarding territorial interests ahead of diplomatic meetings in Washington.",
+      "category": "world",
+      "importance": "high",
+      "why": "This signals potential strain in US-Denmark relations and highlights renewed geopolitical tensions over Arctic territories.",
+      "processed_at": "2026-01-13T20:00:14.243960+00:00"
+    },
+    {
+      "title": "Yoon Suk Yeol: S Korea prosecutors seek death penalty over failed insurrection attempt - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UQkZ6STQ4Z2RTZnF1WE9NeXZhTVlHLWFBelMzWV9sMTRHLWp1MzJJUzRScnNPckl4aG5ZRG5fNGxLSTFNZmUwWGdYb1BKMk1Hemg2R3k5SGlRd9IBX0FVX3lxTE9EZzFRMFcxZHJqZlROV2pXdVZPT0JEQzhYT3g3LS10NGQ1MTN5LVRhV2NocmEtQlhDcXFQd1VERTJLNm83VC1lQ3pEU2hpa2dLX0pDdzN3Zmt1dVZjOEZJ?oc=5",
+      "source": "Google News",
+      "summary": "South Korean prosecutors are seeking the death penalty for former President Yoon Suk Yeol over his failed martial law declaration.",
+      "category": "world",
+      "importance": "high",
+      "why": "This represents an unprecedented legal action against a sitting South Korean president and could reshape the country's political landscape.",
+      "processed_at": "2026-01-13T20:00:14.243978+00:00"
+    },
+    {
+      "title": "Apple turns to Google to power AI upgrade for Siri - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvNVFxNkRtc2hIemxLUkFubVNmQktUakQ4UHcyS0FZVElHMnBMMHJaNGNfbFFxSnNOc2p1U1UyVlNoTFZSeUdWOVYxUEVQWHhKb2hOMFQtWXVfdw?oc=5",
+      "source": "Google News",
+      "summary": "Apple is partnering with Google to integrate AI capabilities into Siri as part of its artificial intelligence upgrade strategy.",
+      "category": "ai",
+      "importance": "high",
+      "why": "This collaboration between tech rivals signals a major shift in Apple's AI approach and could significantly impact the competitive landscape of AI assistants.",
+      "processed_at": "2026-01-13T20:00:14.243982+00:00"
+    }
+  ],
+  "last_scan": "2026-01-13T20:00:19.361727+00:00",
+  "last_count": 3,
+  "by_category": {
+    "world": [
+      "Greenland and Denmark have rejected US pressure regarding territorial interests ahead of diplomatic meetings in Washington.",
+      "South Korean prosecutors are seeking the death penalty for former President Yoon Suk Yeol over his failed martial law declaration."
+    ],
+    "ai": [
+      "Apple is partnering with Google to integrate AI capabilities into Siri as part of its artificial intelligence upgrade strategy."
+    ]
+  }
+}

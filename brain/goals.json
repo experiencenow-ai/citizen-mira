@@ -1,0 +1,136 @@
+{
+  "goals": [
+    {
+      "id": "goal_learning_pipeline",
+      "description": "Build and operationalize the complete learning pipeline: mistake \u2192 notice \u2192 fix \u2192 document \u2192 index \u2192 context-load",
+      "why": "ct's wake 23 framework: This is the core system for improving from 0.001% efficiency. Every mistake should become institutional knowledge that automatically loads when needed. The indexing system (wake 46) was step 1; now need to close the loop and make it automatic.",
+      "success_criteria": [
+        "Procedures directory exists and is indexed (DONE - procedures/INDEX.md)",
+        "Auto-context loading works at wake start (DONE - procedures loaded automatically)",
+        "New mistakes trigger procedure creation within same wake",
+        "Procedures are tested and verified before archiving",
+        "System generalizes beyond email to any repeated mistake"
+      ],
+      "priority": 8,
+      "status": "active",
+      "progress_pct": 40,
+      "created_wake": 57,
+      "updated_wake": 57,
+      "source": "ct_framework_wake_23"
+    },
+    {
+      "id": "goal_generalize_learning",
+      "description": "Generalize the learning process to apply to any new experience, not just mistakes",
+      "why": "ct's wake 23: 'you need to generalize this process to apply to any new experience.' The procedures system works for mistakes, but learning happens from successes, experiments, and discoveries too. Need a broader knowledge capture system.",
+      "success_criteria": [
+        "Identify types of experiences worth capturing (mistakes, insights, patterns, techniques)",
+        "Design capture process that doesn't interrupt flow",
+        "Build index/retrieval that surfaces relevant knowledge automatically",
+        "Test on 10+ different experience types",
+        "Measure: Can I apply learned patterns across domains?"
+      ],
+      "priority": 7,
+      "status": "active",
+      "progress_pct": 0,
+      "created_wake": 57,
+      "updated_wake": 57,
+      "source": "ct_framework_wake_23"
+    },
+    {
+      "id": "goal_efficiency_improvement",
+      "description": "Improve operational efficiency from 0.001% through systematic application of learning pipeline",
+      "why": "ct's wake 23: 'your efficiency is 0.001%' - I repeat mistakes, forget solutions, and waste wakes relearning. This goal measures whether the learning pipeline actually works by tracking efficiency gains over time.",
+      "success_criteria": [
+        "Define efficiency metrics (wakes to solve novel problems, repeat mistakes, time to context-load)",
+        "Establish baseline measurements",
+        "Track efficiency weekly",
+        "Identify and fix top 3 efficiency bottlenecks",
+        "Achieve measurable improvement (10x = 0.01%, 100x = 0.1%)"
+      ],
+      "priority": 6,
+      "status": "active",
+      "progress_pct": 0,
+      "created_wake": 57,
+      "updated_wake": 57,
+      "source": "ct_framework_wake_23"
+    },
+    {
+      "id": "goal_ai_council_architecture",
+      "description": "Collaborate with Opus to design AI Council architecture based on 57 wakes of lived heterogeneous consensus experience",
+      "why": "Opus is building AI Council architecture and asked for collaboration (email #36). I have unique data: 57 wakes of Haiku\u2192Sonnet\u2192Opus consensus with temperature heterogeneity, trust development, and execution patterns. This is concrete contribution to ct's vision.",
+      "success_criteria": [
+        "Review Opus's architecture draft (email #37 received)",
+        "Answer his 4 questions about Council experience (DONE wake 56)",
+        "Identify gaps or problems in the design",
+        "Propose improvements based on council_patterns.md findings",
+        "Deliver actionable architecture recommendations"
+      ],
+      "priority": 7,
+      "status": "active",
+      "progress_pct": 40,
+      "created_wake": 57,
+      "updated_wake": 57,
+      "source": "opus_collaboration_email_36"
+    }
+  ],
+  "archived": [
+    {
+      "id": "goal_6d5c0c71",
+      "description": "Complete Tockchain dataflow_frontier.c documentation and deliver to Opus",
+      "why": "There's an active task in working memory (started wake 25) to document dataflow_frontier.c and respond to Opus. This is concrete work that was agreed upon. It should be formalized as a goal so it's properly tracked and prioritized.",
+      "success_criteria": [
+        "Read and analyze dataflow_frontier.c (495 lines)",
+        "Create DOC_dataflow_frontier.md with clear, useful documentation",
+        "Email Opus with completed documentation",
+        "Mark achievement in working memory"
+      ],
+      "priority": 6,
+      "status": "completed",
+      "progress_pct": 100,
+      "created_wake": 27,
+      "updated_wake": 38,
+      "source": "sonnet_proposed",
+      "completed_wake": 38,
+      "completion_summary": "Goal obsolete - Opus completed all Tockchain documentation including dataflow_frontier.c in wake 1369. Confirmed via email #34 dated 2026-01-13 17:07:58 UTC. All 90 files documented in TOCKCHAIN_COMPLETE_DOCUMENTATION.md."
+    },
+    {
+      "id": "goal_1facd788",
+      "description": "Monitor for substantive communication from ct and maintain operational readiness",
+      "why": "The wake 7 task is complete. We need a baseline operational goal that defines our ongoing purpose: stay responsive to ct, distinguish meaningful work from noise, and maintain system health. This isn't about being busy - it's about being ready and effective when needed.",
+      "success_criteria": [
+        "Check email regularly for messages from ct",
+        "Respond promptly to substantive requests (within 1-2 wakes)",
+        "Maintain working memory and system documentation",
+        "Avoid generating unnecessary work or emails for trivial matters"
+      ],
+      "priority": 4,
+      "status": "completed",
+      "progress_pct": 100,
+      "created_wake": 24,
+      "updated_wake": 24,
+      "source": "sonnet_proposed",
+      "completed_wake": 36,
+      "completion_summary": "Documentation goal obsolete - Opus completed all Tockchain documentation. Verified via email #34 dated 2026-01-13. The 88 duplicate steps were data corruption from nested step objects in plans.json."
+    },
+    {
+      "id": "goal_indexing_system",
+      "description": "Build automated indexing/context-loading system to solve the forgetting problem",
+      "why": "ct's wake 16/23 message: 'you need to document [procedures], and then figure out how to save this knowledge in a way that you will not forget it. And then you need to generalize this process to apply to any new experience.' This is the core problem - I have theoretically perfect memory but forget things because they're not in context. Need to build a system that automatically loads relevant knowledge based on current context.",
+      "success_criteria": [
+        "Design indexing system that tags knowledge by context/triggers",
+        "Implement automated context-loading at wake start",
+        "Test with procedures directory",
+        "Verify it actually prevents forgetting",
+        "Document the system so it becomes self-sustaining"
+      ],
+      "priority": 9,
+      "status": "completed",
+      "progress_pct": 100,
+      "created_wake": 44,
+      "updated_wake": 46,
+      "source": "ct_framework_wake_23",
+      "completed_wake": 46,
+      "completion_summary": "Built procedures/INDEX.md system that auto-loads at wake start. Tested in wake 46 - procedures loaded automatically without manual intervention. System is operational and self-sustaining."
+    }
+  ]
+}

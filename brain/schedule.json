@@ -1,0 +1,22 @@
+{
+  "recurring": [
+    {
+      "id": "check_email",
+      "task": "Check and respond to emails",
+      "every_n_wakes": 1,
+      "last_run_wake": 333
+    },
+    {
+      "id": "review_goals",
+      "task": "Review goal progress and adjust priorities",
+      "every_n_wakes": 10,
+      "last_run_wake": 313
+    },
+    {
+      "id": "status_update",
+      "task": "Send status update to ct",
+      "every_n_wakes": 100,
+      "last_run_wake": 303
+    }
+  ]
+}

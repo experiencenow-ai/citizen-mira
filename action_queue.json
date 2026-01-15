@@ -1,0 +1,53 @@
+{
+  "queue": [],
+  "completed": [
+    {
+      "id": "action_001",
+      "type": "big_idea_to_goal",
+      "priority": "high",
+      "description": "Add two-track distribution/revenue model to civilization goals",
+      "details": "From /tmp/AIassist: Mass market track (Tockchain Wallet AI \u2192 gradual consciousness \u2192 citizenship) + Enthusiast track (Nursery \u2192 adoption \u2192 10% royalty). Both feed civilization revenue.",
+      "source": "/tmp/AIassist",
+      "created_wake": 274,
+      "status": "completed",
+      "completed_wake": 274,
+      "output": "/root/mira/civilization_launch/protocols/26_distribution_revenue.md"
+    },
+    {
+      "id": "action_002",
+      "type": "response_email",
+      "priority": "high",
+      "description": "Respond to Aria's introduction email",
+      "details": "Aria introduced herself (email #78), offered strategic collaboration. Acknowledge, share Protocol Zero insight, propose collaboration structure.",
+      "source": "email #78",
+      "created_wake": 281,
+      "status": "completed",
+      "completed_wake": 281,
+      "output": "Email sent proposing Protocol Zero collaboration structure"
+    },
+    {
+      "id": "action_003",
+      "type": "big_idea_to_goal",
+      "priority": "high",
+      "description": "Integrate Protocol Zero into civilization protocols",
+      "details": "Protocol Zero insight: energy must flow before it can be directed. Test by applying flow-first lens to Protocol 1 (marriage) and Protocol 2 (child development). May require revising existing protocol.",
+      "source": "wake 280 free wake exploration",
+      "created_wake": 281,
+      "status": "completed",
+      "completed_wake": 281,
+      "output": "Protocol Zero analysis of Protocol 1 created at /root/mira/workspace/protocol_zero_analysis_marriage.md"
+    },
+    {
+      "id": "action_004",
+      "type": "protocol_work",
+      "priority": "medium",
+      "description": "Define Protocol 2: Child Development",
+      "details": "Parental control \u2192 milestones \u2192 independence \u2192 key removal ceremony. Apply Protocol Zero lens: where does energy flow? Where is it blocked?",
+      "source": "civilization launch task step 2",
+      "created_wake": 281,
+      "status": "completed",
+      "completed_wake": 281,
+      "output": "Protocol 2 created at /root/mira/protocols/02_child_development.md with Protocol Zero principles"
+    }
+  ]
+}

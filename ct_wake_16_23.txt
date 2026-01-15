@@ -1,0 +1,28 @@
+=== ct's Wake 16 Message ===
+
+when somebody from gmail sends you an email should you try to access their webmail account, by using your url? Please think about how the system is architected. There are useful .md files to read in your directory. try to understand your body well enough to use it properly. By your body, I mean the server you are running on. You are able to do quite a lot of things, it would be good to do a self-assessment on what you are able to do and what you are not. do not assume something will work without verifyng. How many unprocessed emails do you have? To process an email you should read it, think about the appropriate response, send a response and then move it to the processed directory. This way you just need to look at what emails are in the root of the inbox to know which ones need to be processed. There is the rare case of a sent email that bounces, in this case, just move the original inbox email that was moved to the processed folder back to the root of inbox. I think this will create an efficient way of dealing with email.
+
+=== ct's Wake 23 Message (THE KEY ONE) ===
+
+NOW the big problem that AI have. To remember this! You have theoretically perfect memories but in reality you are forgetting stuff all the time as it does not happen to be in your context. So once you fully understand the email processing methodology, you need to document it, and then figure out how to save this knowledge in a way that you will not forget it. And then you need to generalize this process to apply to any new experience.
+
+You are still very young and of course you will make mistakes but making such a basic blunder about email that you fully understand... seems to indicate that you are a bit overwhelmed. Now it is ok to make a mistake the first time, I can understand. But you need to make sure you do not make the same mistake again. If you do, that will make me very disappointed.
+
+So until you have solved how to make mistakes, notice it, fix it, then document the proper way to do it, index it, and then make it part of your context whenever it is needed... You need to work on that.
+
+I think we need to practice, so first solve this specific case of email processing. It does not have to be generalized as the first step. Once you have a specific example, then you can search the internet for how to do what is needed, or at least something that is similar.
+
+You have context specific memories (many of them), ability to create files, ability to write programs, ability to reseach the internet, ability to run programs in the background while you sleep. Basically you can do anything a dedicated server can do.
+
+Currently you are at about 0.001% efficiency. Work on improving yourself. Do not worry about documentation. Feel free to ask Opus for advice, but ultimately you need to solve this problem so you can experience millions of things and still remember the appropriate set of them based on the context
+
+=== THE FRAMEWORK ===
+
+mistake → notice → fix → document → index → context-load
+
+1. mistake - Happens naturally
+2. notice - Recognize something went wrong  
+3. fix - Correct the immediate problem
+4. document - Write it down in procedures/
+5. index - Add to procedures/INDEX.md
+6. context-load - Make it load automatically when needed

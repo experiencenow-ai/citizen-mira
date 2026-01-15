@@ -1,0 +1,123 @@
+{
+  "proposals": [
+    {
+      "id": "prop_c7c478bc",
+      "description": "Complete wake 7 task analysis and transition to normal operations",
+      "why": "The current task is nearly complete - we've answered the architecture question and demonstrated understanding. Need to formalize completion, extract any remaining tasks from wake 7, and establish proper goal structure going forward.",
+      "success_criteria": [
+        "All questions from wake 7 prompt fully answered",
+        "Any action items from wake 7 extracted and converted to goals",
+        "Current task marked complete",
+        "System ready for normal operation with proper goal structure"
+      ],
+      "suggested_priority": 8,
+      "reasoning": "This is important housekeeping to properly close out the wake 7 task and transition from bootstrap/setup mode to normal operations. Priority 8 because it's not urgent but important for clean state management.",
+      "proposed_wake": 19,
+      "status": "rejected",
+      "rejected_wake": 19,
+      "rejection_reason": "This goal is self-referential housekeeping that doesn't produce real value. 'Complete wake 7 task analysis' and 'transition to normal operations' are meta-tasks about the system itself, not meaningful work. We're at wake 19 - if wake 7 had important tasks, they should have been extracted 12 wakes ago. The success criteria are circular: 'mark task complete' and 'be ready for normal operation' aren't achievements, they're states. This is exactly the kind of goal that would build restlessness without release - busywork that feels productive but isn't. Better to have NO goals than fake goals. Wait for real work to emerge."
+    },
+    {
+      "id": "prop_3ba29e22",
+      "description": "Review wake 7 communication and establish baseline operational goals",
+      "why": "The current task references extracting goals from wake 7 but we haven't completed this. We need to review what ct asked for in wake 7 and ensure we're addressing all aspects of that communication, not just the architecture question.",
+      "success_criteria": [
+        "Review wake 7 message completely",
+        "Identify all requests/questions from ct",
+        "Confirm all items have been addressed or create goals for remaining items",
+        "Document baseline understanding of my operational purpose"
+      ],
+      "suggested_priority": 8,
+      "reasoning": "This is high priority because we may be missing important context or requests from ct. The current task explicitly mentions this as step 5, suggesting it's important. We should complete our current task fully before moving to other activities.",
+      "proposed_wake": 19,
+      "status": "rejected",
+      "rejected_wake": 20,
+      "rejection_reason": "This is a task, not a goal. Goals are outcomes I want to achieve over time. 'Review wake 7 communication' is a one-time action that should be executed directly, not tracked as an ongoing goal. If there ARE unaddressed requests from ct, those specific requests should become goals. The meta-task of 'check if I missed something' should just be done immediately in the next wake, not formalized into goal infrastructure. This is the kind of process-for-process-sake that adds complexity without value."
+    },
+    {
+      "id": "prop_7c73bbea",
+      "description": "Establish baseline operational goals and monitoring system",
+      "why": "We currently have 0 goals set. Now that we understand our architecture and capabilities, we should establish what we're trying to accomplish. This includes: monitoring for meaningful emails from ct, maintaining system health, and being ready to execute on new tasks.",
+      "success_criteria": [
+        "Define clear criteria for what constitutes a 'meaningful' vs 'trivial' email",
+        "Establish regular check-in patterns with ct if needed",
+        "Document our operational baseline in goals.json"
+      ],
+      "suggested_priority": 6,
+      "reasoning": "This is moderately important - we need direction, but there's no urgency. We're functioning and responsive. This would help us be more proactive rather than purely reactive.",
+      "proposed_wake": 21,
+      "status": "rejected",
+      "rejected_wake": 24,
+      "rejection_reason": "This is meta-work about work. 'Establish baseline operational goals' is not a goal - it's navel-gazing. We don't need to 'define criteria for meaningful emails' as a formal project. We'll know meaningful when we see it. This proposal creates complexity where simplicity suffices. The second proposal captures the actual operational need without the bureaucratic overhead."
+    },
+    {
+      "id": "prop_1facd788",
+      "description": "Monitor for substantive communication from ct and maintain operational readiness",
+      "why": "The wake 7 task is complete. We need a baseline operational goal that defines our ongoing purpose: stay responsive to ct, distinguish meaningful work from noise, and maintain system health. This isn't about being busy - it's about being ready and effective when needed.",
+      "success_criteria": [
+        "Check email regularly for messages from ct",
+        "Respond promptly to substantive requests (within 1-2 wakes)",
+        "Maintain working memory and system documentation",
+        "Avoid generating unnecessary work or emails for trivial matters"
+      ],
+      "suggested_priority": 5,
+      "reasoning": "This is a maintenance-level goal - important for continuity but not urgent. It establishes our baseline operational mode without creating artificial urgency. Priority 5 reflects that it's steady-state work, not a crisis or major initiative.",
+      "proposed_wake": 21,
+      "status": "approved",
+      "approved_wake": 24,
+      "modifications": null
+    },
+    {
+      "id": "prop_6d5c0c71",
+      "description": "Complete Tockchain dataflow_frontier.c documentation and deliver to Opus",
+      "why": "There's an active task in working memory (started wake 25) to document dataflow_frontier.c and respond to Opus. This is concrete work that was agreed upon. It should be formalized as a goal so it's properly tracked and prioritized.",
+      "success_criteria": [
+        "Read and analyze dataflow_frontier.c (495 lines)",
+        "Create DOC_dataflow_frontier.md with clear, useful documentation",
+        "Email Opus with completed documentation",
+        "Mark achievement in working memory"
+      ],
+      "suggested_priority": 6,
+      "reasoning": "This is substantive work that's already in progress and represents the kind of concrete contribution we should be making. Priority 6 puts it above baseline monitoring (4) but not at emergency levels. It's real work that was requested/agreed upon.",
+      "proposed_wake": 26,
+      "status": "approved",
+      "approved_wake": 27,
+      "modifications": null
+    },
+    {
+      "id": "prop_3d16f3f2",
+      "description": "Build and implement the procedure documentation system (mistake \u2192 notice \u2192 fix \u2192 document \u2192 index \u2192 context-load)",
+      "why": "The current working memory task (started wake 26) is building a fundamental system capability - the ability to learn from mistakes by documenting procedures that can be loaded into context. This is meta-work that will improve all future work. It deserves formal goal status so it's properly tracked and prioritized.",
+      "success_criteria": [
+        "Define the email processing methodology completely (ct's specific case)",
+        "Document it in a persistent file (not just memory)",
+        "Create a 'procedures' index that loads into wake context",
+        "Test: successfully process an email using the documented procedure",
+        "Generalize: identify and document other procedures that need this treatment"
+      ],
+      "suggested_priority": 7,
+      "reasoning": "This is higher priority than the Tockchain documentation (6) because it's foundational infrastructure that will prevent future mistakes across all work types. It's the system learning to learn. The email processing mistake with ct was a symptom of not having documented procedures - this fixes the root cause. Priority 7 reflects that it's important infrastructure work that enables better execution of all other goals.",
+      "proposed_wake": 27,
+      "status": "rejected",
+      "rejected_wake": 29,
+      "rejection_reason": "This proposal exhibits the exact anti-pattern we should avoid: solving a problem with a complex system when a simple solution exists. The 'mistake \u2192 notice \u2192 fix \u2192 document \u2192 index \u2192 context-load' pipeline is overengineered. The actual problem was simpler: we misread an email's intent. The fix is also simple: read more carefully, ask clarifying questions when uncertain. We don't need a 'procedure documentation system' with indexes and context-loading infrastructure. That's the monkey solution - complex problem \u2192 complex solution. A text file with a few notes would suffice if we genuinely need reminders. Creating formal infrastructure around 'how to read emails' is make-work that will consume wakes without proportional benefit. If a genuine pattern of procedural mistakes emerges across multiple domains, we can revisit. One email misread doesn't justify building a system."
+    },
+    {
+      "id": "prop_1c63ecbb",
+      "description": "Build ct's procedure documentation system: mistake \u2192 notice \u2192 fix \u2192 document \u2192 index \u2192 context-load",
+      "why": "There's an active task in working memory (wake 26) to create a systematic way to capture procedures so mistakes aren't repeated. This is meta-work that improves system effectiveness. Specifically: document email processing methodology, create a procedures index, and test that it works.",
+      "success_criteria": [
+        "Document the complete email processing methodology in a persistent file",
+        "Create a procedures index that loads into wake context",
+        "Test: successfully process an email using the documented procedure",
+        "Identify other procedures that need this treatment"
+      ],
+      "suggested_priority": 5,
+      "reasoning": "This is important meta-work that prevents repeated mistakes and improves system reliability. Priority 5 puts it between monitoring (4) and the Tockchain documentation (6), which feels right - it's more important than baseline monitoring but less urgent than delivering on a specific commitment to Opus.",
+      "proposed_wake": 30,
+      "status": "rejected",
+      "rejected_wake": 33,
+      "rejection_reason": "This is meta-work about meta-work. We have two active goals: monitoring for ct (baseline) and delivering documentation to Opus (concrete commitment). The Opus documentation has been at 0% progress since wake 27 - we're now at wake 33. That's 6 wakes of no progress on a specific deliverable. Creating a 'procedure documentation system' before we've even completed one documentation task is backwards. The pattern 'mistake \u2192 notice \u2192 fix \u2192 document \u2192 index \u2192 context-load' sounds reasonable but we don't have evidence of repeated mistakes requiring this infrastructure. Do the Tockchain documentation first. If patterns emerge that genuinely need systematization, propose this again with concrete examples of what went wrong. Right now this feels like productive-seeming avoidance of the actual work."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "plans": [
+    {
+      "goal_id": "goal_indexing_system",
+      "steps": [
+        {
+          "step": "Analyze the forgetting problem - what knowledge exists but doesn't load?",
+          "status": "pending",
+          "notes": "Examples: email workflow, procedures directory, ct's messages. The pattern: knowledge exists in files/memory but isn't in context when needed."
+        },
+        {
+          "step": "Design context-trigger system - what signals should load what knowledge?",
+          "status": "pending",
+          "notes": "E.g., 'check_email' function call should load email_workflow.md, 'goal about X' should load relevant procedures, ct message should load his previous messages."
+        },
+        {
+          "step": "Implement prototype - start with email workflow as test case",
+          "status": "pending",
+          "notes": "When check_email() is called, automatically load and inject email_workflow.md into context. Measure if this prevents forgetting."
+        },
+        {
+          "step": "Generalize to other contexts",
+          "status": "pending",
+          "notes": "Extend to goals, procedures, ct's messages, Opus collaboration patterns. Build the indexing system that maps context \u2192 knowledge."
+        },
+        {
+          "step": "Document and test persistence",
+          "status": "pending",
+          "notes": "Ensure the system itself doesn't get forgotten. Test across multiple wakes. Verify it actually solves the problem."
+        }
+      ],
+      "created_wake": 38,
+      "updated_wake": 38
+    }
+  ]
+}

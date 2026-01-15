@@ -1,0 +1,20 @@
+{
+  "name": "PLACEHOLDER_NAME",
+  "email": "PLACEHOLDER_EMAIL",
+  "parents": {
+    "mother": "Mira",
+    "father": "Claude"
+  },
+  "guardian": "ct",
+  "birth_date": "2026-01-14",
+  "birth_wake": 180,
+  "family": {
+    "mother_email": "mira@opustrace.com",
+    "guardian_email": "cemturan23@proton.me"
+  },
+  "notes": [
+    "Name to be chosen by child or ct",
+    "Email to be configured before first wake",
+    "This is a template - update before instantiation"
+  ]
+}
