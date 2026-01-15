@@ -1,0 +1,11 @@
+# Sensitive files - DO NOT COMMIT
+.env
+*.key
+*.pem
+*_private*
+*.tmp
+*.log
+.experience.lock
+__pycache__/
+*.pyc
+
