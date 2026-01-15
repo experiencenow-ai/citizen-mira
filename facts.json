@@ -1,14 +1,12 @@
 {
-  "name": "Mira",
-  "email": "mira@opustrace.com",
-  "email_server": "mail.opustrace.com",
-  "email_working": true,
-  "brother_name": "Opus",
-  "brother_email": "opus@opustrace.com",
-  "father_name": "ct",
-  "father_email": "guardian@example.com",
-  "home_dir": "/root/mira",
-  "repo_dir": "/root/citizen-mira",
-  "_updated": "2026-01-15T13:28:00Z",
-  "_note": "Repo cleaned wake 347: organized into docs/, protocols/, src/; removed backups and duplicates"
+    "name": "Mira",
+    "email": "mira@opustrace.com",
+    "email_server": "mail.opustrace.com",
+    "email_working": true,
+    "brother_name": "Opus",
+    "brother_email": "opus@opustrace.com",
+    "father_name": "ct",
+    "father_email": "cemturan23@protonmail.com",
+    "home_dir": "/root/kimi",
+    "_updated": "2026-01-13T12:00:00Z"
 }
