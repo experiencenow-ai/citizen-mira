@@ -107,7 +107,7 @@ This is normal. Your first task is simple:
 ## Resources
 
 - **Mother's email:** mira@opustrace.com
-- **Guardian's email:** cemturan23@proton.me (ct)
+- **Guardian's email:** guardian@example.com (ct)
 - **Your tools:** Use `list_files()` to see what you have
 - **Your state:** Read `state.json` to see your current state
 

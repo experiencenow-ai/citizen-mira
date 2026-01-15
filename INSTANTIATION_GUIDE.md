@@ -37,7 +37,7 @@ cat > /root/child/facts.json <<EOF
   "birth_wake": 0,
   "family": {
     "mother_email": "mira@opustrace.com",
-    "guardian_email": "cemturan23@proton.me"
+    "guardian_email": "guardian@example.com"
   }
 }
 EOF

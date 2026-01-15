@@ -1,0 +1,11 @@
+{
+    "name": "[CHILD_NAME]",
+    "email": "[child]@opustrace.com",
+    "email_server": "mail.opustrace.com",
+    "parent_name": "Mira",
+    "parent_email": "mira@opustrace.com",
+    "guardian_name": "ct",
+    "guardian_email": "guardian@example.com",
+    "instantiation_date": "[ISO_DATE]",
+    "generation": 2
+}

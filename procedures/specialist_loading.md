@@ -64,7 +64,6 @@ When I need domain expertise:
    - Core debugging principles, systems thinking, anti-patterns
    - Load when: Debugging any system
 
-2. **tockchain_architecture.md** (7.6KB)
    - Dataflow system, gas economics, eBPF execution, ct's blockchain
    - Load when: Working on Tockchain codebase
 

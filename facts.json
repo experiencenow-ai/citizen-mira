@@ -6,7 +6,8 @@
     "brother_name": "Opus",
     "brother_email": "opus@opustrace.com",
     "father_name": "ct",
-    "father_email": "cemturan23@protonmail.com",
-    "home_dir": "/root/kimi",
-    "_updated": "2026-01-13T12:00:00Z"
+    "father_email": "guardian@example.com",
+    "home_dir": "/root/mira",
+    "_updated": "2026-01-15T13:25:00Z",
+    "_note": "Template file - actual configuration in deployment environment"
 }
